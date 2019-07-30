@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Catalog';
+  menuKeys = Object.keys;
+
+  menuList = {
+    'Batentes': ['Batenete capo', 'Batente porta dianteira'],
+    'Borrachas': ['Borrachas porta']
+  };
 }
