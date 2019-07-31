@@ -1,17 +1,36 @@
-<div class="products">
-  <mat-card *ngFor="let item of products" class="example-card card-products" fxFlex="30">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>{{ item.title }}</mat-card-title>
-    </mat-card-header>
-    <img mat-card-image src="{{ item.img }}" alt="Photo of a Shiba Inu">
-    <mat-card-content>
-      <p>
-        {{ item.description }}
-      </p>
-    </mat-card-content>
-    <mat-card-actions>
-      <button mat-button class="mat-button btn-dark">Visualizar</button>
-    </mat-card-actions>
-  </mat-card>
+<div class="container-fluid content">
+
+  <div class="row">
+
+    <div class="col-lg-12 masthead">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <h1 class="font-weight-light">Produtos com a qualidade certa</h1>
+            <p class="lead">Confira nossos preços</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+    <div class="col-lg-12">
+      <div class="products">
+        <mat-card *ngFor="let item of products" class="example-card card-products" fxFlex="30">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>{{ item.title }}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src="{{ item.img }}" alt="Photo of a Shiba Inu">
+          <mat-card-content>
+            <p>
+              {{ item.description }}
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button class="mat-button btn-dark" [routerLink]="[ '/product-detail' ]">Visualizar</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+  </div>
 </div>
