@@ -6,10 +6,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list-products.component.scss']
 })
 export class ListProductsComponent implements OnInit {
-  list: Array<string> = ['', '', '', '', '', ''];
   constructor() { }
 
-  ngOnInit() {
-  }
+  products = [{
+    title: 'Modelo',
+    description: 'Acabamento trilho banco e alavanca regulagem banco',
+    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+  }, {
+    title: 'Modelo',
+    description: 'Acabamento trilho banco e alavanca regulagem banco',
+    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+  },
+  {
+    title: 'Modelo',
+    description: 'Acabamento trilho banco e alavanca regulagem bacno',
+    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+  },
+  {
+    title: 'Modelo',
+    description: 'Acabamento trilho banco e alavanca regulagem bacno',
+    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+
+  }]
+
+  ngOnInit() { }
 
 }
