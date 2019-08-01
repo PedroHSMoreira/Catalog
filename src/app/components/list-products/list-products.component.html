@@ -13,9 +13,9 @@
       </div>
     </div>
     <div class="col-md-3"></div>
-    <div class="col-lg-12">
-      <div class="products">
-        <mat-card *ngFor="let item of products" class="example-card card-products" fxFlex="30">
+    <div class="col-md-12">
+      <div class="products" fxLayoutAlign="center start">
+        <mat-card *ngFor="let item of products" class="example-card card-products mat-elevation-z3" fxFlex="20">
           <mat-card-header>
             <div mat-card-avatar class="example-header-image"></div>
             <mat-card-title>{{ item.title }}</mat-card-title>

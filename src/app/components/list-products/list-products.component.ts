@@ -27,6 +27,18 @@ export class ListProductsComponent implements OnInit {
     description: 'Acabamento trilho banco e alavanca regulagem bacno',
     img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
 
+  },
+  {
+    title: 'Modelo',
+    description: 'Acabamento trilho banco e alavanca regulagem bacno',
+    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+
+  },
+  {
+    title: 'Modelo',
+    description: 'Acabamento trilho banco e alavanca regulagem bacno',
+    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+
   }]
 
   ngOnInit() { }

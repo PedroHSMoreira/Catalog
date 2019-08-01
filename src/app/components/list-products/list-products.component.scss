@@ -8,7 +8,7 @@
 }
 
 .card-products {
-  margin: 10px 15px;
+  margin: 10px 10px;
 }
 
 .masthead {
@@ -18,4 +18,17 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+
+@media (max-width: 768px) {
+  mat-card {
+    max-width: 40% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  mat-card {
+    max-width: 100% !important;
+  }
 }

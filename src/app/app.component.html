@@ -1,15 +1,29 @@
 <header>
   <mat-toolbar color="primary">
+
     <mat-toolbar-row>
       <span>
         <h1>Canezin</h1>
       </span>
-      <mat-form-field class="example-form-field">
-        <input matInput type="text" placeholder="Pesquisar">
-        <button mat-button matSuffix mat-icon-button aria-label="Search">
-          <mat-icon>search</mat-icon>
-        </button>
-      </mat-form-field>
+      <span class="remaining-space"></span>
+      <span class="col-6">
+        <mat-form-field class="example-form-field" fxHide.lt-md>
+          <input matInput type="text" placeholder="Pesquisar">
+          <button mat-button matSuffix mat-icon-button aria-label="Search">
+            <mat-icon>search</mat-icon>
+          </button>
+        </mat-form-field>
+      </span>
+    </mat-toolbar-row>
+    <mat-toolbar-row fxShow.gt-sm='false'>
+      <span class="col-12">
+        <mat-form-field class="example-form-field">
+          <input matInput type="text" placeholder="Pesquisar">
+          <button mat-button matSuffix mat-icon-button aria-label="Search">
+            <mat-icon>search</mat-icon>
+          </button>
+        </mat-form-field>
+      </span>
     </mat-toolbar-row>
     <mat-toolbar-row>
       <span>
@@ -31,6 +45,9 @@
     </mat-toolbar-row>
   </mat-toolbar>
 </header>
+
+
+
 <!-- <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
   <div class="item item-4" fxFlex fxFlexOffset="50px" fxFlexOffset.xs="0">
   </div>
