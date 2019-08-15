@@ -11,33 +11,33 @@ export class ListProductsComponent implements OnInit {
   products = [{
     title: 'Modelo',
     description: 'Acabamento trilho banco e alavanca regulagem banco',
-    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    img: "http://images.tcdn.com.br/img/img_prod/232415/11765_1_20151014174532.jpg"
   }, {
     title: 'Modelo',
     description: 'Acabamento trilho banco e alavanca regulagem banco',
-    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    img: "http://images.tcdn.com.br/img/img_prod/232415/11765_1_20151014174532.jpg"
   },
   {
     title: 'Modelo',
     description: 'Acabamento trilho banco e alavanca regulagem bacno',
-    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    img: "http://images.tcdn.com.br/img/img_prod/232415/11765_1_20151014174532.jpg"
   },
   {
     title: 'Modelo',
     description: 'Acabamento trilho banco e alavanca regulagem bacno',
-    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    img: "http://images.tcdn.com.br/img/img_prod/232415/11765_1_20151014174532.jpg"
 
   },
   {
     title: 'Modelo',
     description: 'Acabamento trilho banco e alavanca regulagem bacno',
-    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    img: "http://images.tcdn.com.br/img/img_prod/232415/11765_1_20151014174532.jpg"
 
   },
   {
     title: 'Modelo',
     description: 'Acabamento trilho banco e alavanca regulagem bacno',
-    img: "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    img: "http://images.tcdn.com.br/img/img_prod/232415/11765_1_20151014174532.jpg"
 
   }]
 
